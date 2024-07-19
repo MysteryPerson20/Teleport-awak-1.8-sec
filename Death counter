@@ -13,7 +13,7 @@ local newPosition = Vector3.new(342, 671, 500)
 humanoidRootPart.CFrame = CFrame.new(newPosition)
 
 -- Wait for 1 second
-wait(1)
+wait(0.7)
 
 -- Teleport back to the original position
 humanoidRootPart.CFrame = CFrame.new(originalPosition)
